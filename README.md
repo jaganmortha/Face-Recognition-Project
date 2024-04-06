@@ -13,16 +13,20 @@
 #### no parameters required
 #### Request body (multipart/form-data)
 #### { 'key': 'file', 'value': choose binary file (image) }
-<br>
+
 ### POST --> 127.0.0.1:8000/upload/
 #### (Adds the images of the person uploaded to the dataset along with label)
 #### no parameters required
 #### Request body (multipart/form-data)
 #### { 'key': 'label', 'value': name of the person(string) }
 #### { 'key': 'files', 'value': choose binary files (images) of the person }
-<br>
+
 ### GET --> 127.0.0.1:8000/train/
 #### (Initiates the training process of the model)
 #### no parameters required
 #### no Request body required
 
+## Sources:
+#### Dataset source: https://www.kaggle.com/datasets/hereisburak/pins-face-recognition
+#### Trained Model Link: https://drive.google.com/file/d/12CVJ9y9EYq3I8pcAb3jg3_KmCX6k6q6w/view?usp=sharing
+#### Base Model source: https://www.kaggle.com/datasets/utkarshsaxenadn/facenet-keras
