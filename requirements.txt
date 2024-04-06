@@ -1,0 +1,9 @@
+fastapi
+pillow
+joblib
+tensorflow==2.11.0
+opencv-python
+numpy
+splitfolders
+pandas
+tqdm
